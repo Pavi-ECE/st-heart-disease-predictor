@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open("https://github.com/Pavi-ECE/st-heart-disease-predictor/blob/main/KNN_Algo_trained.sav",'rb'))
+loaded_model = pickle.load(open("KNN_Algo_trained.sav",'rb'))
 
 def heart_disease_prediction(input):
     # preprocessing the input
